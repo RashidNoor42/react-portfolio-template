@@ -37,12 +37,15 @@ const Header = () => {
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
+            <p>A result driven, customer focused and statistics based
+              enthusiastic, passionate and dedicated professional
+              software engineer, having Bachelor's degree in
+              software engineering.</p>
           </Fade>
           <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "rashidnoor@ieee.org"
               }`}
               className="primary-btn"
             >
